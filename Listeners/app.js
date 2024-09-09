@@ -10,9 +10,9 @@ container.addEventListener("mouseout", () => {
     container.style.backgroundColor = "red";
 });
 
-// button.addEventListener("click", () => {
-//     alert("Boton presionado");
-// });
+ button.addEventListener("click", () => {
+  alert("Boton presionado");
+ });
 
 const buttonClickCallback = () => {
     alert("boton clickeado");
